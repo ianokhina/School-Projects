@@ -1,0 +1,146 @@
+/*##################### For Every Page ########################*/
+
+body {
+  margin: 0;
+  font-family: 'Sen', sans-serif;
+}
+
+/*##################### Menu Bar ########################*/
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a47680;
+}
+
+#menu > li {
+  float: right;
+}
+
+#menu > li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*##################### Home Page ########################*/
+
+#logo {
+  height: 180px;
+  margin-left: 9px;
+}
+
+#wheel {
+  height: 100%;
+  width:100%;
+}
+
+#footer {
+  width: 100%;
+}
+
+#home-picture {
+ background-image: url("images/trimingpot2.jpg");
+ height: 150vh;
+ background-size: cover;
+}
+
+/*##################### About Me ########################*/
+
+#wheel-hands {
+  height:300px;
+  width: 400px;
+  float: left;
+  margin-right: 20px;
+
+}
+
+#about-me-text {
+  margin: 0;
+  padding: 15px;
+}
+
+/*##################### Contact Page ########################*/
+
+#contact {
+  background-image: url("images/7pots.jpg");
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+#contact-text {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 19px;
+  color: white;
+}
+
+#contact-text > h1 {
+  font-size: 60px
+}
+
+#contact-text > h2 {
+  font-size: 24px;
+}
+
+#contact-text > a {
+  color: white;
+  text-decoration: none;
+}
+
+#contact-text > a:hover {
+  color: blue;
+}
+
+
+/*##################### Project Page ########################*/
+
+.project-card {
+  height: 600px;
+  width: 350px;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+  margin: 10px 35px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+}
+
+.project-image {
+  width: 100%;
+}
+
+#project-1 {
+  background-color: #dac0be;
+}
+
+#project-2 {
+  background-color: #fee2d3;
+}
+
+.project-header {
+  margin-left: 33px;
+  color: white;
+}
+
+.project-container {
+  padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
